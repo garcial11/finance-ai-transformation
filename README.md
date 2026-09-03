@@ -16,7 +16,7 @@ This portfolio presents selected work across transaction monitoring, financial r
 | Inform | [Financial Performance Dashboard](case-studies/financial-dashboard.md) | Consolidates fragmented reporting into one responsive view backed by scheduled snapshots. |
 | Connect | [Secure Bank Data Pipeline](case-studies/bank-data-pipeline.md) | Brings multi-account bank data into a controlled reporting layer without placing credentials in spreadsheets. |
 | Control | [AP KPI Monitor](case-studies/ap-kpi-monitor.md) | Makes payment bottlenecks, aging, ownership, and cycle time visible by next required action. |
-| Automate | [Task It](case-studies/task-it.md) | Converts an email into an assigned operational task without retyping or changing systems. |
+| Automate | [Task It](case-studies/task-it.md) | Creates monday.com tasks from Gmail, Calendar, Drive, Docs, Sheets, and Slides, including Gmail on mobile. |
 | Engage | [Investor Relationship CRM](case-studies/investor-relationship-crm.md) | Uses a custom Google Workspace application to unify investor interactions, commitments, documents, and AI-assisted drafting. |
 | Reconcile | [Deposit Reconciliation](case-studies/deposit-reconciliation.md) | Compares bank deposits with the accounting ledger and sends only actionable exceptions. |
 | Govern AI | [AI-Assisted Filing Queue](case-studies/filing-queue.md) | Uses AI to suggest names and destinations while keeping every rename and move human-controlled. |
