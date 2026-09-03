@@ -8,7 +8,7 @@ Investor conversations, ownership context, documents, and follow-up commitments 
 
 ## Solution
 
-A lightweight investor CRM built on Google Workspace centralizes relationship activity and connects each interaction to the relevant investor and investment vehicle. Users can log conversations, track relationship context, attach supporting files, retrieve filtered history, and convert commitments into monday.com tasks.
+A custom Google Workspace application functions as a lightweight investor CRM. It centralizes relationship activity and connects each interaction to the relevant investor and investment vehicle. Users can log conversations, track relationship context, attach supporting files, retrieve filtered history, and convert commitments into monday.com tasks.
 
 ~~~mermaid
 flowchart TD
