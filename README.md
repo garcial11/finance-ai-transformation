@@ -12,6 +12,7 @@ This portfolio presents selected work across transaction monitoring, financial r
 
 | Capability | Case study | Business outcome |
 |---|---|---|
+| Understand | [Private Invoice Intelligence](case-studies/invoice-intelligence.md) | Uses private multimodal AI, RAG, historical precedents, and deterministic controls to own an end-to-end bookkeeping workflow without sending confidential data to commercial AI APIs. |
 | Detect | [Transaction Fraud Monitoring](case-studies/transaction-fraud-monitoring.md) | Combines statistically calibrated detection, AI-assisted interpretation, and a follow-up dashboard with human decisions and an audit trail. |
 | Inform | [Financial Performance Dashboard](case-studies/financial-dashboard.md) | Consolidates fragmented reporting into one responsive view backed by scheduled snapshots. |
 | Connect | [Secure Bank Data Pipeline](case-studies/bank-data-pipeline.md) | Brings multi-account bank data into a controlled reporting layer without placing credentials in spreadsheets. |
