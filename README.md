@@ -12,7 +12,7 @@ This portfolio presents selected work across transaction monitoring, financial r
 
 | Capability | Case study | Business outcome |
 |---|---|---|
-| Detect | [Transaction Fraud Monitoring](case-studies/transaction-fraud-monitoring.md) | Turns daily transaction monitoring into an exception-based review process with human decisions and an audit trail. |
+| Detect | [Transaction Fraud Monitoring](case-studies/transaction-fraud-monitoring.md) | Combines statistically calibrated detection, AI-assisted interpretation, and a follow-up dashboard with human decisions and an audit trail. |
 | Inform | [Financial Performance Dashboard](case-studies/financial-dashboard.md) | Consolidates fragmented reporting into one responsive view backed by scheduled snapshots. |
 | Connect | [Secure Bank Data Pipeline](case-studies/bank-data-pipeline.md) | Brings multi-account bank data into a controlled reporting layer without placing credentials in spreadsheets. |
 | Control | [AP KPI Monitor](case-studies/ap-kpi-monitor.md) | Makes payment bottlenecks, aging, ownership, and cycle time visible by next required action. |
