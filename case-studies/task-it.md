@@ -1,31 +1,32 @@
-# Task It: Email-to-Workflow Automation
+# Task It: Google Workspace-to-Workflow Automation
 
 > Sanitized case study. No email content, board identifiers, user mappings, API credentials, production code, or proprietary business logic is shared.
 
 ## Business problem
 
-Important work often begins inside email but is lost when converting the message into a project-management task requires switching systems and retyping context.
+Important work can begin anywhere in Google Workspace. Moving it into a project-management system often requires switching applications, retyping context, and manually recreating ownership and due dates.
 
 ## Solution
 
-A Google Workspace add-on creates a structured task from the email currently open. It prefills useful fields, lets the user review them, creates the task, and carries essential message context into the work-management system.
+A Google Workspace add-on creates structured monday.com tasks from the tools employees already use, including Gmail, Calendar, Drive, Docs, Sheets, and Slides. It is also available from Gmail on mobile. The add-on prefills relevant context, lets the user review the task, and sends it into the work-management system without leaving the current Google Workspace application.
 
 ```mermaid
 flowchart TD
-    A[Open email] --> B[Prefilled task form]
-    B --> C[User review]
-    C --> D[Create task]
-    D --> E[Attach relevant context]
+    A[Gmail, Calendar, Drive, Docs, Sheets, or Slides] --> B[Task It add-on]
+    B --> C[Prefilled task form]
+    C --> D[User review]
+    D --> E[monday.com task and context]
 ```
 
-The workflow is designed for assignees who may not have mailbox access. A failure while attaching context does not hide the fact that the task itself was successfully created.
+The workflow turns information into action at the point where the user encounters it. In Gmail, it can carry message context for assignees who may not have mailbox access. A failure while attaching context does not hide the fact that the task itself was successfully created.
 
 ## Business impact
 
-- Reduced friction between communication and execution.
-- Eliminated repeated entry of subjects, senders, and context.
+- Reduced friction between Google Workspace and task execution.
+- Eliminated repeated entry of titles, senders, links, and relevant context.
 - Improved task traceability and ownership.
-- Kept users inside their normal email workflow.
+- Kept users inside Gmail, Calendar, Drive, Docs, Sheets, and Slides.
+- Extended task creation to Gmail on mobile.
 - Handled partial failures transparently instead of creating duplicates.
 
 ## Control design
@@ -33,13 +34,13 @@ The workflow is designed for assignees who may not have mailbox access. A failur
 - User review before task creation
 - Narrow application permissions
 - Clear success and warning states
-- Bounded message content
+- Context limited to the item currently being used
 - No email forwarding or autonomous task creation
 
 ## Technology pattern
 
-Google Workspace add-on, Google Apps Script, monday.com API, JavaScript, and automated tests.
+Google Workspace add-on, Gmail mobile integration, Google Apps Script, monday.com API, JavaScript, and automated tests.
 
 ## Portfolio boundary
 
-Board structure, account mappings, email data, API configuration, production code, and internal routing logic remain private.
+Board structure, account mappings, Workspace content, API configuration, production code, and internal routing logic remain private.
