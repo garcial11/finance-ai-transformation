@@ -1,3 +1,5 @@
+<img src="assets/finance-banner.png" alt="Finance Transformation. AI, Automation, Controls. Practical systems for finance operations and better decisions." width="100%">
+
 # Finance Transformation with AI and Automation
 
 Practical systems that improve finance operations, controls, reporting, and decision-making.
