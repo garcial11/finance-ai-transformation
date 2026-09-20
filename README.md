@@ -50,6 +50,6 @@ Google Apps Script, Google Workspace add-ons, Google Sheets, Cloud Run, secret m
 
 ## About
 
-Created by **Luis E. Garcia**, a finance leader focused on finance transformation, applied AI, automation, controls, and decision systems.
+Created by **Luis E. Garcia**, Director of Finance in commercial and multifamily real estate, working on finance transformation, applied AI, automation, controls, and decision systems.
 
 For the disclosure and publication boundaries used throughout this portfolio, see [Portfolio Boundaries](docs/portfolio-boundaries.md).
